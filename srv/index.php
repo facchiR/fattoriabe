@@ -3,7 +3,7 @@
 	
 	date_default_timezone_set('Europe/Rome');
 	
-	R::setup('mysql:host=127.0.0.1;dbname=ese','ese', 'pwd');
+	R::setup('mysql:host=127.0.0.1;dbname=fattoria','c06', 'pwd');
 	R::freeze(TRUE);
 	
 	function sendJson($data="",$code=200,$n=true){
